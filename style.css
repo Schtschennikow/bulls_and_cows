@@ -1,0 +1,181 @@
+/* #00b1c6 - b */
+/* #ffbe14 - y*/
+/* #a15136 - br */
+/* #f0312d - r */
+
+body, html {
+  background-image: url(https://s6.postimg.cc/vya3x85k1/image.png);
+  background-size: ;
+  height: 100%;
+}
+
+.container{
+  position: relative;
+  height: 100%;
+  padding: 0;
+}
+
+#num{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#countd{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  font-size: 15vmin;
+  text-align: center;
+  color: #ffbe14;
+  font-family: 'Geo', serif;
+}
+
+#dd{
+  position: absolute;
+  top: 0;
+  right: 36%;
+  height: 68%;
+  width:26%;
+  background: url(https://s6.postimg.cc/6fhrk7ea9/image.png);
+  background-repeat: repeat;
+}
+
+#rbord{
+  position: absolute;
+  right: -18px;
+  height: 100%;
+  width: 50px;
+  background: url(https://s6.postimg.cc/8k24lavch/image.png);
+}
+
+#lbord{
+  position: absolute;
+  left: -25px;
+  height: 100%;
+  width: 50px;
+  background: url(https://s6.postimg.cc/750jwjroh/image.png);
+}
+#bbord{
+  position: absolute;
+  bottom: -50px;
+  height: 50px;
+  width: 100%;
+  background: url(https://s6.postimg.cc/wb1i3dl8x/image.png);
+}
+#rcon{
+  position: absolute;
+  right: -18px;
+  bottom: -50px;
+  height: 50px;
+  width: 50px;
+  background: url(https://s6.postimg.cc/lo7oxz08x/image.png);
+}
+#lcon{
+  position: absolute;
+  left: -25px;
+  bottom: -50px;
+  height: 50px;
+  width: 50px;
+  background: url(https://s6.postimg.cc/rp5dv1f5d/image.png);
+}
+
+#control{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 20%;
+  height: 20%;
+}
+
+.bb{
+  background-color: #f0312d;
+  color: white;
+  text-align: center;
+  text-color: rgb(245, 245, 220);
+  font-size: 5vmin;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 1px;
+  font-family: 'Geo', serif;
+}
+
+.bb:hover {opacity: 1}
+
+#oh {
+  position: absolute;
+  right: 2px;
+  bottom: 30%;
+  width: 20%;
+}
+
+#guess {
+  text-align: center;
+  font-size: 5vmin;
+  background-color: rgb(245, 245, 220);
+  margin: 1px;
+  border-radius: 0;
+  font-family: 'Geo', serif;
+}
+
+#log{
+  position: relative;
+  top: 0;
+  left: 25%;
+  height: 68%;
+  width:40%;
+  font-size: 5vmin;
+  padding: 0;
+  font-family: 'Geo', serif;
+}
+
+
+#farmer_mask {
+  content: url(https://s6.postimg.cc/rbwj8ew0h/image.png);
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 20%;
+}
+
+#text{
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  font-size: 3vmin;
+  font-family: 'Geo', serif;
+  height: 25%;
+  width: 50%;
+  background-color: rgb(245, 245, 220);
+  padding: 5px;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {   
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #66BB6A;
+}
+
+#credits{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 20%;
+  font-size: small;
+  color: #000000;
+  font-family: 'Geo', serif;
+}
+
+.animal {
+  width: 21%;
+}
